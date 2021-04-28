@@ -22,12 +22,12 @@
 	const height = canvas.height = window.innerHeight;
 
 	const ctx = canvas.getContext('2d');
-	ctx.fillStyle = 'rgb(0, 0, 0)';
+	ctx.fillStyle = 'rgb(255, 0, 0)';
 	ctx.fillRect(0, 0, width-100, height-100);
 	ctx.fillStyle = 'rgb(255, 0, 0)';
+	ctx.fillRect(height/5, width/5, 500, 500);
 	ctx.beginPath();
-	ctx.moveTo(50, 50);
-	ctx.moveTo(70, 20);
+	
 	ctx.fill();
 </script>
 </body>
